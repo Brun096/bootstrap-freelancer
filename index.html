@@ -31,8 +31,8 @@
     </header>
     <!--CONTENUTO-->
     <main class="text-center">
-        <div class="my-4 text-center">
-            <h2>PORTFOLIO</h2>
+        <div class="my-4">
+            <h2 class="text-uppercase">Portfolio</h2>
         </div>
         <!--GALLERIA-->
         <section class="container">
@@ -102,9 +102,9 @@
 
         </section>
         <!--SU_DI_NOI-->
-        <section class="container-fluid bg-info  py-4 ">
-            <div class="text-center">
-                <h4>ABOUT</h4>
+        <section class="container-fluid bg-info  py-4 my-4">
+            <div>
+                <h4 class="text-uppercase">About</h4>
                 <div class="row my-3">
                     <div class="col-6">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -125,7 +125,48 @@
             </div>
         </section>
         <!--CONTATTI-->
-        <section></section>
+        <section class="container">
+            <div class="bg-white h-100">
+                <h4 class="text-uppercase p-3 text-center text-uppercase">contact me</h4>
+                <form action="#" class="row p-3 gy-2">
+                    <!-- first name-->
+                    <div class="col-6">
+                        <label class="form-label" for="first-name">First name</label>
+                        <input class="form-control" type="text" id="first-name" required
+                            placeholder="Enter your first name...">
+                    </div>
+                    <!-- last name-->
+                    <div class="col-6">
+                        <label class="form-label" for="last-name">Last name</label>
+                        <input class="form-control" type="text" id="last-name" required
+                            placeholder="Enter your last name...">
+                    </div>
+                    <!-- email address -->
+                    <div class="col-6">
+                        <label class="form-label" for="address">Email address</label>
+                        <input class="form-control" type="text" id="address" required placeholder="name@example.com">
+                    </div>
+
+
+                    <!-- email -->
+                    <div class="col-6">
+                        <label class="form-label" for="email">Phone number</label>
+                        <input class="form-control" type="email" id="email" required placeholder="(123) 456-7890">
+                    </div>
+
+                    <!--meassage-->
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <!--button-->
+                    <div class="col-12">
+                        <button type="button" class="btn btn-info"><i class="bi bi-send"></i>&nbsp;Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <!--LOACTION_E_SOCIAL-->
